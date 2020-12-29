@@ -67,7 +67,7 @@ public class Worker extends Person {
             try {
                 typicalAmountOfHours = Integer.parseInt(typicalAmountOfHoursColumnData);
             } catch (NumberFormatException exc) {
-                exc.printStackTrace();
+//                exc.printStackTrace();
             }
         }
         return typicalAmountOfHours;
@@ -80,7 +80,7 @@ public class Worker extends Person {
                 annualSalary= Double.parseDouble(annualSalaryColumnData);
             }
             catch (NumberFormatException exc){
-                exc.printStackTrace();
+//                exc.printStackTrace();
             }
         }
         return annualSalary;
@@ -93,7 +93,7 @@ public class Worker extends Person {
                 hourlyRate = Double.parseDouble(hourlyRateColumnData);
             }
             catch (NumberFormatException exc){
-                exc.printStackTrace();
+//                exc.printStackTrace();
             }
         }
         return hourlyRate;
